@@ -18,7 +18,6 @@ int checkIfNumber(char c){
 
 int main()
 {
-
   char val, val2 = 'J';
 
   while(toupper(val2) == 'J'){
