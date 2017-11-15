@@ -1,4 +1,4 @@
-#include "../Libs/unity/src/unity.h"
+#include "Libs/unity/src/unity.h"
 #include "calculatorFunc.h"
 #define DECIMAL_PRECISSION 2
 void test_addtion_diffrent_typ_of_values(void)
