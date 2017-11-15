@@ -7,7 +7,6 @@
 void clearSTDINBuffer() {
 	while (getchar() != '\n');
 }
-
 int checkIfNumber(char c){
   if(isdigit(c)){
     return 1;
