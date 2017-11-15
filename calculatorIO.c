@@ -34,7 +34,7 @@ int main()
           scanf("%lf", &tal1);
           printf("Ange tal 2: ");
           scanf("%lf", &tal2);
-          printf("%lf\n",addtion(tal1, tal2));
+          printf("\nSum: %0.2lf\n\n",addtion(tal1, tal2));
       }
       else if(val=='2')
       {
@@ -43,7 +43,7 @@ int main()
           scanf("%lf", &tal1);
           printf("Ange tal 2: ");
           scanf("%lf", &tal2);
-          printf("%lf\n",subtraction(tal1, tal2));
+          printf("\nSum: %0.2lf\n\n",subtraction(tal1, tal2));
       }
       else if(val=='3')
       {
@@ -52,7 +52,7 @@ int main()
           scanf("%lf", &tal1);
           printf("Ange tal 2: ");
           scanf("%lf", &tal2);
-          printf("%lf\n",multiplication(tal1, tal2));
+          printf("\nSum: %0.3lf\n\n",multiplication(tal1, tal2));
       }
       else if(val=='4')
       {
@@ -61,7 +61,7 @@ int main()
           scanf("%lf", &tal1);
           printf("Ange tal 2: ");
           scanf("%lf", &tal2);
-          printf("%lf\n",division(tal1, tal2));
+          printf("\nSum: %0.3lf\n\n",division(tal1, tal2));
       }
     }
     else{
